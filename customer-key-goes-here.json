@@ -1,0 +1,64 @@
+{
+    "active": false,
+    "communityName": "Example Roleplay",
+    "firstThreeIp": 133,
+    "lastThreeIp": 789,
+    "portOne": 1,
+    "portTwo": 5,
+    "debug": false,
+    "maxBusinesses": 3,
+    "whitelisted": true,
+    "features": {
+        "webPanel": true,
+        "gameEconomy": true
+    },
+    "wait_config": {
+        "paymentPeriodM": 60,
+        "creationCooldownD": 14,
+        "silentAlarmCooldownM": 5
+    },
+    "cPermissions": {
+        "waiting": {
+            "onlyWhitelisted": true,
+            "permAccessLevel": 0,
+            "groupId": 0,
+            "next": 1
+        },
+        "player": {
+            "onlyWhitelisted": false,
+            "permAccessLevel": 1,
+            "groupId": 1,
+            "next": 2
+        },
+        "staffLimited": {
+            "onlyWhitelisted": false,
+            "permAccessLevel": 2,
+            "groupId": 2,
+            "next": 3
+        },
+        "staffMember": {
+            "onlyWhitelisted": false,
+            "permAccessLevel": 3,
+            "groupId": 3,
+            "next": 4
+        },
+        "superStaff": {
+            "onlyWhitelisted": false,
+            "permAccessLevel": 4,
+            "groupId": 4,
+            "next": 5
+        },
+        "manager": {
+            "onlyWhitelisted": false,
+            "permAccessLevel": 5,
+            "groupId": 5,
+            "next": 6
+        },
+        "owner": {
+            "onlyWhitelisted": false,
+            "permAccessLevel": 6,
+            "groupId": 6,
+            "next": 100
+        }
+    }
+}
