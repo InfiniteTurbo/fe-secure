@@ -6,6 +6,7 @@
     "portOne": 1,
     "portTwo": 5,
     "debug": false,
+    "ui": "always",
     "economyIndicator": 1,
     "maxBusinesses": 3,
     "whitelisted": true,
